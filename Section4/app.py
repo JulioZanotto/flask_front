@@ -18,6 +18,7 @@ session = Session()
 Base = declarative_base()
 
 
+# Creating and linking table
 class Alchemy(Base):
     __tablename__ = 'alchemy'
 
